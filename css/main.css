@@ -1,3 +1,15 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Georgia, serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #bebebe;
   margin: 0;
@@ -143,4 +155,9 @@ footer a {
 
 footer p {
   color: #323232;
+}
+
+footer p, footer a {
+  display: inline;
+  font-size: .875rem;
 }
